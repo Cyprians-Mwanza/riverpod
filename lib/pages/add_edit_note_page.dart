@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../models/note.dart';
-import '../notifiers/note_notifier.dart';
+import '../riverpod/note_notifier.dart';
 
 class AddEditNotePage extends ConsumerStatefulWidget {
   final Note? note;
